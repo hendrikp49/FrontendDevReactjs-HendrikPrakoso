@@ -1,8 +1,13 @@
+import HomePage from "./pages/HomePage";
+import DetailPage from "./pages/DetailPage";
+import { Route, Routes } from "react-router-dom";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold">Tes</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/detail-restaurant/:id" element={<DetailPage />} />
+    </Routes>
   );
 };
 
