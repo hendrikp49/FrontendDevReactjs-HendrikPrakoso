@@ -15,14 +15,14 @@ Selamat datang di repositori project ini. Ini adalah aplikasi yang dibangun meng
 Ikuti langkah-langkah di bawah ini untuk menjalankan project ini di lingkungan lokal.
 
 - Clone repo ini dengan cara ketikkan perintah berikut di terminal
-  "git clone https://github.com/hendrikp49/FrontendDevReactjs-HendrikPrakoso.git"
+  **git clone https://github.com/hendrikp49/FrontendDevReactjs-HendrikPrakoso.git**
 - Dilanjutkan dengan
-  "cd FrontendDevReactjs-HendrikPrakoso"
+  **cd FrontendDevReactjs-HendrikPrakoso**
 - Kemudian untuk install dependencies
-  "npm install"
+  **npm install**
 - Dilanjutkan untuk menjalankan project
-  "npm run dev"
+  **npm run dev**
 - Terakhir untuk akses project
-  "http://localhost:5173"
+  **http://localhost:5173**
 
 
