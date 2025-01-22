@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import CountStars from "./CountStars";
 import { useSelector } from "react-redux";
 import "ldrs/ring";
+import { ring } from "ldrs";
 
 const RestoMainContent = () => {
   const { restaurants, fetchDataRestaurants, fetchRestaurantsByCategory } =
@@ -111,6 +112,7 @@ const RestoMainContent = () => {
   // Initial data fetch
   useEffect(() => {
     fetchDataRestaurants();
+    ring.register();
   }, []);
 
   return (
@@ -188,7 +190,7 @@ const RestoMainContent = () => {
       <main className="pt-14">
         {isLoading && (
           <p className="text-center">
-            <l-ring color="#2962FF" size={30} speed={1} />
+            <l-ring color="#2962FF" size={30} speed={1}></l-ring>
           </p>
         )}
 

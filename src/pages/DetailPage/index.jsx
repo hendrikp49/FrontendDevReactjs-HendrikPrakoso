@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Header from "../../components/layout/Header";
 import CountStars from "../../components/CountStars";
 import "ldrs/ring";
+import { ring } from "ldrs";
 import { useSelector } from "react-redux";
 import Breadcrumb from "../../components/ui/Breadcrumb";
 
@@ -14,6 +15,7 @@ const DetailPage = () => {
 
   useEffect(() => {
     fetchDetailRestaurant(id);
+    ring.register();
   }, []);
 
   return (
@@ -24,7 +26,7 @@ const DetailPage = () => {
 
       {isLoading ? (
         <p className="mt-20 text-center">
-          <l-ring color="#2962FF" size={30} speed={1} />
+          <l-ring color="#2962FF" size={30} speed={1}></l-ring>
         </p>
       ) : (
         <>
