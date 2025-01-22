@@ -1,6 +1,6 @@
 # Resto Finder
 
-Selamat datang di repositori project ini. Ini adalah aplikasi yang dibangun menggunakan **React.js** dan **Node.js**. Berikut adalah informasi tentang project ini.
+Selamat datang di repositori project ini. Ini adalah aplikasi yang dibangun menggunakan **React.js**. Berikut adalah informasi tentang project ini.
 
 ## Informasi Versi
 - **React.js**: v18.3.1
